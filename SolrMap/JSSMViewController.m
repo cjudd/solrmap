@@ -29,13 +29,13 @@
      @"coordinates_p":   @"location"
      }];
     
-    // sent request for json result from solr
     RKResponseDescriptor *responseDescriptor = [RKResponseDescriptor responseDescriptorWithMapping:mapping pathPattern:nil keyPath:@"response.docs" statusCodes:nil];
     
     NSString* solrUrl = [NSString stringWithFormat:@"http://localhost:8983/solr/collection1/select?q=*:*&fq=%%7B!bbox%%7D&pt=%f,%f&d=%@&sfield=coordinates_p&wt=json&fl=_dist_:geodist(),name,description,coordinates_p", self.mapView.centerCoordinate.latitude, self.mapView.centerCoordinate.longitude, self.kmField.text];
     
     NSURL *url = [NSURL URLWithString:solrUrl];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    
     RKObjectRequestOperation *operation = [[RKObjectRequestOperation alloc] initWithRequest:request responseDescriptors:@[responseDescriptor]];
     [operation setCompletionBlockWithSuccess:^(RKObjectRequestOperation *operation, RKMappingResult *result) {
         
