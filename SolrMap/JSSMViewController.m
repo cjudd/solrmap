@@ -16,8 +16,6 @@
 @end
 
 @implementation JSSMViewController
-@synthesize mapView;
-@synthesize kmField;
 
 - (void)findLocations {
     // need to do this since solr response with "text/plain" rather than "application/json"
@@ -34,7 +32,7 @@
     // sent request for json result from solr
     RKResponseDescriptor *responseDescriptor = [RKResponseDescriptor responseDescriptorWithMapping:mapping pathPattern:nil keyPath:@"response.docs" statusCodes:nil];
     
-    NSString* solrUrl = [NSString stringWithFormat:@"http://localhost:8983/solr/collection1/select?q=*:*&fq=%%7B!bbox%%7D&pt=%f,%f&d=%@&sfield=coordinates_p&wt=json&fl=_dist_:geodist(),name,description,coordinates_p", mapView.centerCoordinate.latitude, mapView.centerCoordinate.longitude, kmField.text];
+    NSString* solrUrl = [NSString stringWithFormat:@"http://localhost:8983/solr/collection1/select?q=*:*&fq=%%7B!bbox%%7D&pt=%f,%f&d=%@&sfield=coordinates_p&wt=json&fl=_dist_:geodist(),name,description,coordinates_p", self.mapView.centerCoordinate.latitude, self.mapView.centerCoordinate.longitude, self.kmField.text];
     
     NSURL *url = [NSURL URLWithString:solrUrl];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
@@ -46,7 +44,7 @@
             [point setCoordinate: [self convertStringToLatLong:[point location]]];
         }
         
-        [mapView addAnnotations: points];
+        [self.mapView addAnnotations: points];
         
     } failure:^(RKObjectRequestOperation *operation, NSError *error) {
         NSLog(@"Failed with error: %@", [error localizedDescription]);
@@ -58,7 +56,7 @@
     CLLocationCoordinate2D sanfranCenterCoordinate = {37.7752,-122.4232};
     MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(
                                     sanfranCenterCoordinate, 50000, 50000);
-    [mapView setRegion:region animated:TRUE];
+    [self.mapView setRegion:region animated:TRUE];
 }
 
 - (CLLocationCoordinate2D) convertStringToLatLong:(NSString*)loc
@@ -75,14 +73,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    mapView.delegate = self;
-    kmField.delegate = self;
+    self.mapView.delegate = self;
+    self.kmField.delegate = self;
     [self zoomSanFran];
     //[self testPoint];
 }
 
 - (IBAction)findButton:(id)sender {
-    [kmField resignFirstResponder];
+    [self.kmField resignFirstResponder];
     [self findLocations];
 }
 
@@ -97,7 +95,7 @@
     point.coordinate = coordinate;
     point.title = @"OSU Statium";
     
-    [mapView addAnnotation:point];
+    [self.mapView addAnnotation:point];
 }
 
 - (void)didReceiveMemoryWarning
