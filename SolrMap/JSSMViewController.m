@@ -55,17 +55,6 @@
     [self.mapView setRegion:region animated:TRUE];
 }
 
-- (CLLocationCoordinate2D) convertStringToLatLong:(NSString*)loc
-{
-    CLLocationCoordinate2D location;
-    
-    NSArray * locationArray = [loc componentsSeparatedByString: @","];
-
-    location.latitude = [[locationArray objectAtIndex:0] doubleValue];
-    location.longitude = [[locationArray objectAtIndex:1] doubleValue];
-    return location;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
