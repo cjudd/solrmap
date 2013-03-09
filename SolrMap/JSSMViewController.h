@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 
-@interface JSSMViewController : UIViewController <MKMapViewDelegate>
+@interface JSSMViewController : UIViewController <MKMapViewDelegate, UITextFieldDelegate>
 
 @end
 

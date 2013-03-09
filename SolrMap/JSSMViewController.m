@@ -20,6 +20,7 @@
 @synthesize kmField;
 
 - (IBAction)findButton:(id)sender {
+    [kmField resignFirstResponder];
     // need to do this since solr response with "text/plain" rather than "application/json"
     [RKMIMETypeSerialization registerClass:[RKNSJSONSerialization class] forMIMEType:@"text/plain"];
     
@@ -77,8 +78,14 @@
 {
     [super viewDidLoad];
     mapView.delegate = self;
+    kmField.delegate = self;
     [self zoomSanFran];
     //[self testPoint];
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+    [self findButton:textField];
+    return YES;
 }
 
 - (void) testPoint {
