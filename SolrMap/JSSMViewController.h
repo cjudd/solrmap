@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface JSSMViewController : UIViewController
+@interface JSSMViewController : UIViewController <MKMapViewDelegate>
 
+@end
+
+@interface JSSMAnnotation : NSObject <MKAnnotation>
+
+@property (nonatomic, assign) CLLocationCoordinate2D coordinate;
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *description;
+@property (nonatomic, copy) NSString *location;
 @end
