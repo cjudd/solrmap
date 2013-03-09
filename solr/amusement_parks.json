@@ -1,0 +1,978 @@
+[
+    {
+        "id": "Myrtle Waves Water Park",
+        "name": "Myrtle Waves Water Park",
+        "description": "USA-North Myrtle Beach<br />\nUS 17 Bypass at 10th Avenue<br />\n",
+        "coordinates_p": "33.81673,-78.68005",
+        "store": "33.81673,-78.68005",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Coney Island",
+        "name": "Coney Island",
+        "description": "USA-New York-Brooklyn<br />\n1208 Surf Ave.<br />\n+1 718-372-5159",
+        "coordinates_p": "40.57546,-73.98017",
+        "store": "40.57546,-73.98017",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Six Flags Over Georgia",
+        "name": "Six Flags Over Georgia",
+        "description": "USA-Austell<br />\n7561 Six Flags Pkwy<br />\n+1 770-948-9290",
+        "coordinates_p": "33.77091,-84.55220",
+        "store": "33.77091,-84.55220",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Disney's Blizzard Beach",
+        "name": "Disney's Blizzard Beach",
+        "description": "USA-Lake Buena Vista<br />\nPO Box 10000<br />\n+1 407-934-7639",
+        "coordinates_p": "28.37220,-81.56090",
+        "store": "28.37220,-81.56090",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Legoland California",
+        "name": "Legoland California",
+        "description": "USA-Carlsbad<br />\n1 Lego Dr<br />\n",
+        "coordinates_p": "33.12317,-117.31276",
+        "store": "33.12317,-117.31276",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Gateway Park Boulder",
+        "name": "Gateway Park Boulder",
+        "description": "USA-Boulder<br />\n4800 North 28th Street<br />\n+1 303-442-4386",
+        "coordinates_p": "40.06210,-105.27672",
+        "store": "40.06210,-105.27672",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Sesame Place",
+        "name": "Sesame Place",
+        "description": "USA-Langhorne<br />\n100 Sesame Road<br />\n",
+        "coordinates_p": "40.18667,-74.87105",
+        "store": "40.18667,-74.87105",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Libertyland",
+        "name": "Libertyland",
+        "description": "USA-Memphis<br />\n940 Early Maxwell Blvd.<br />\n+1 800-552-PARK",
+        "coordinates_p": "35.11959,-89.98043",
+        "store": "35.11959,-89.98043",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Water Country",
+        "name": "Water Country",
+        "description": "USA-Portsmouth<br />\n2300 Lafayette Road<br />\n+1 603-427-1111",
+        "coordinates_p": "43.03455,-70.78096",
+        "store": "43.03455,-70.78096",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Kennywood",
+        "name": "Kennywood",
+        "description": "USA-West Mifflin<br />\n4800 Kennywood Blvd<br />\n",
+        "coordinates_p": "40.38628,-79.86530",
+        "store": "40.38628,-79.86530",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Hersey Park",
+        "name": "Hersey Park",
+        "description": "USA-Hershey<br />\n100 Hershey Park Dr<br />\n+1 800-HERSHEY",
+        "coordinates_p": "40.29416,-76.65413",
+        "store": "40.29416,-76.65413",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Castles N'Coasters",
+        "name": "Castles N'Coasters",
+        "description": "USA-East Phoenix<br />\n9445 North Metro Parkway<br />\n+1 602-997-7575",
+        "coordinates_p": "33.57370,-112.11849",
+        "store": "33.57370,-112.11849",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Grand Canyon Railroad",
+        "name": "Grand Canyon Railroad",
+        "description": "USA-Williams<br />\n233 N. Grand canyon Blvd.<br />\n+1 800-THE-TRAIN",
+        "coordinates_p": "35.25190,-112.18921",
+        "store": "35.25190,-112.18921",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Martins Fantasy Island",
+        "name": "Martins Fantasy Island",
+        "description": "USA-New York<br />\n2400 Grand Island Blvd.<br />\n+1 716-773-7591",
+        "coordinates_p": "43.02695,-78.96797",
+        "store": "43.02695,-78.96797",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Carousel Water & Fun Park",
+        "name": "Carousel Water & Fun Park",
+        "description": "USA-Beach Lake<br />\nRoute 652<br />\n+1 507-7297532",
+        "coordinates_p": "41.60720,-75.10440",
+        "store": "41.60720,-75.10440",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Wet'n Wild",
+        "name": "Wet'n Wild",
+        "description": "USA-Las Vegas<br />\n2601 Las Vegas Blvd.<br />\n+1 800-565-0786",
+        "coordinates_p": "36.13986,-115.15957",
+        "store": "36.13986,-115.15957",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "New England Aquarium",
+        "name": "New England Aquarium",
+        "description": "USA-Boston<br />\nCentral Wharf<br />\n",
+        "coordinates_p": "42.35930,-71.05080",
+        "store": "42.35930,-71.05080",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Universal Studios Hollywood",
+        "name": "Universal Studios Hollywood",
+        "description": "USA-Universal City<br />\n100 Universal City Plaza<br />\n+1 800-959-9688",
+        "coordinates_p": "34.13673,-118.35590",
+        "store": "34.13673,-118.35590",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Runaway Rapids Water Park",
+        "name": "Runaway Rapids Water Park",
+        "description": "USA-Keansburg<br />\n275 Beachway<br />\n",
+        "coordinates_p": "40.45343,-74.13929",
+        "store": "40.45343,-74.13929",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Noah's Ark",
+        "name": "Noah's Ark",
+        "description": "USA-Wisconsin Dells<br />\n1410 Wisconsin Dells Parkway<br />\n+1 608-254-6351",
+        "coordinates_p": "43.60491,-89.79131",
+        "store": "43.60491,-89.79131",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Six Flags Astroworld",
+        "name": "Six Flags Astroworld",
+        "description": "USA-Houston<br />\n9001 Kirby Drive<br />\n+1 13-799-1234",
+        "coordinates_p": "29.67276,-95.41194",
+        "store": "29.67276,-95.41194",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Six Flags Over Texas",
+        "name": "Six Flags Over Texas",
+        "description": "USA-Arlington <br />\n2201 Road To Six Flags St E<br />\n+1 817-530-6000",
+        "coordinates_p": "32.75264,-97.07239",
+        "store": "32.75264,-97.07239",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Eagle Quest Golf & Leisure Dome",
+        "name": "Eagle Quest Golf & Leisure Dome",
+        "description": "USA-West Warwick<br />\n1 Keyes Way<br />\n",
+        "coordinates_p": "41.67059,-71.50415",
+        "store": "41.67059,-71.50415",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Splish Splash",
+        "name": "Splish Splash",
+        "description": "USA-Riverhead<br />\n2549 Splish Splash Drive<br />\n+1 631-727-3600",
+        "coordinates_p": "40.92920,-72.64750",
+        "store": "40.92920,-72.64750",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Donley's Wild West Town",
+        "name": "Donley's Wild West Town",
+        "description": "USA-Union<br />\n8512 South Union Road<br />\n+1 815-923-9000",
+        "coordinates_p": "42.20548,-88.55001",
+        "store": "42.20548,-88.55001",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "AdventureLand",
+        "name": "AdventureLand",
+        "description": "USA-New York<br />\n2245 Route 110 Farmingdale<br />\n+1 631-694-6868",
+        "coordinates_p": "40.75267,-73.42182",
+        "store": "40.75267,-73.42182",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Riverview Park & Waterworld",
+        "name": "Riverview Park & Waterworld",
+        "description": "USA-Wisconsin Dells<br />\nHwy. 12<br />\n+1 608-254-2608",
+        "coordinates_p": "43.62577,-89.77077",
+        "store": "43.62577,-89.77077",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Six Flags Wild Safari",
+        "name": "Six Flags Wild Safari",
+        "description": "USA-Jackson<br />\nRoute 537<br />\n+1 732-928-1821",
+        "coordinates_p": "40.12090,-74.32220",
+        "store": "40.12090,-74.32220",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Six Flags Fiesta Texas",
+        "name": "Six Flags Fiesta Texas",
+        "description": "USA-San Antonio<br />\n17000 IH-10 West<br />\n+1 210-697-5050",
+        "coordinates_p": "29.60106,-98.59977",
+        "store": "29.60106,-98.59977",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Denver Zoo",
+        "name": "Denver Zoo",
+        "description": "USA-Denver<br />\n2300 Steele Street<br />\n",
+        "coordinates_p": "39.75101,-104.94892",
+        "store": "39.75101,-104.94892",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Ocean Breeze",
+        "name": "Ocean Breeze",
+        "description": "USA-Virginia Beach<br />\n849 General Booth Blvd.<br />\n+1 757-422-4444",
+        "coordinates_p": "36.81367,-75.98894",
+        "store": "36.81367,-75.98894",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Mountain Creek Resort",
+        "name": "Mountain Creek Resort",
+        "description": "USA-Vernon<br />\n200 Route 94<br />\n",
+        "coordinates_p": "41.18720,-74.51230",
+        "store": "41.18720,-74.51230",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Blue Bayou",
+        "name": "Blue Bayou",
+        "description": "USA-Baton Rouge<br />\n18142 Perkins Road<br />\n+1 225-753-3333",
+        "coordinates_p": "30.34750,-91.02671",
+        "store": "30.34750,-91.02671",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Cedar Point",
+        "name": "Cedar Point",
+        "description": "USA-Sandusky<br />\nOne Cedar Point Dr.<br />\n+1 419-627-2350",
+        "coordinates_p": "41.48065,-82.68365",
+        "store": "41.48065,-82.68365",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Tennessee Aquarium",
+        "name": "Tennessee Aquarium",
+        "description": "USA-Chattanooga<br />\nOne Broad Street<br />\n",
+        "coordinates_p": "35.05545,-85.31107",
+        "store": "35.05545,-85.31107",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Visionland",
+        "name": "Visionland",
+        "description": "USA-Bessemer<br />\n4599 Visionland Parkway<br />\n",
+        "coordinates_p": "33.38929,-86.99164",
+        "store": "33.38929,-86.99164",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Roaring Springs Waterpark",
+        "name": "Roaring Springs Waterpark",
+        "description": "USA-Meridian<br />\n400 West Overland Road<br />\n",
+        "coordinates_p": "43.59024,-116.39859",
+        "store": "43.59024,-116.39859",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Adventure Dome Theme Park",
+        "name": "Adventure Dome Theme Park",
+        "description": "USA-Las Vegas<br />\n2880 Las Vegas Blvd.<br />\n+1 877-224-7267",
+        "coordinates_p": "36.13756,-115.16633",
+        "store": "36.13756,-115.16633",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Camel Beach",
+        "name": "Camel Beach",
+        "description": "USA-Tannersville<br />\nPO Box 168<br />\n+1 570-629-1661",
+        "coordinates_p": "41.04940,-75.32420",
+        "store": "41.04940,-75.32420",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Knott's Berry Farm/Soak City",
+        "name": "Knott's Berry Farm/Soak City",
+        "description": "USA-Buena Park<br />\n8039 Beach Blvd.<br />\n+1 714-220-5200",
+        "coordinates_p": "33.84550,-117.99810",
+        "store": "33.84550,-117.99810",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Raptor Reef Indoor Water Park",
+        "name": "Raptor Reef Indoor Water Park",
+        "description": "USA-Hayden<br />\n151 West Orchard Avenue<br />\n",
+        "coordinates_p": "47.75554,-116.78831",
+        "store": "47.75554,-116.78831",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "White Water University",
+        "name": "White Water University",
+        "description": "USA-Des Moines<br />\nUniversity Ave.<br />\n+1 515-265-2063",
+        "coordinates_p": "41.60040,-93.74566",
+        "store": "41.60040,-93.74566",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Cypress Gardens",
+        "name": "Cypress Gardens",
+        "description": "USA-Winter Haven<br />\n2641 S Lake Summit Dr<br />\n",
+        "coordinates_p": "27.99880,-81.69100",
+        "store": "27.99880,-81.69100",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "SeaWorld San Antonio",
+        "name": "SeaWorld San Antonio",
+        "description": "USA-San Antonio<br />\n15000 SeaWorld Drive<br />\n+1 800-700-7786",
+        "coordinates_p": "29.46120,-98.67530",
+        "store": "29.46120,-98.67530",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Hidden Cove",
+        "name": "Hidden Cove",
+        "description": "USA-Bourbonais<br />\n70 Ken Hayes Drive<br />\n+1 815-933-9150",
+        "coordinates_p": "41.17127,-87.84792",
+        "store": "41.17127,-87.84792",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Waterworld Safari",
+        "name": "Waterworld Safari",
+        "description": "USA-Phoenix<br />\n4243 West Pinnacle Peak<br />\n",
+        "coordinates_p": "33.69926,-112.10414",
+        "store": "33.69926,-112.10414",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Fantasy Island Amusement Park",
+        "name": "Fantasy Island Amusement Park",
+        "description": "USA-Beach Haven<br />\n320 West Seventh<br />\n",
+        "coordinates_p": "39.65293,-74.18033",
+        "store": "39.65293,-74.18033",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Cyrtal Cave Park",
+        "name": "Cyrtal Cave Park",
+        "description": "USA-Kutztown<br />\n963 Crystal Cave Road<br />\n",
+        "coordinates_p": "40.52774,-75.84344",
+        "store": "40.52774,-75.84344",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Dutch Wonderland Family Amusement Park",
+        "name": "Dutch Wonderland Family Amusement Park",
+        "description": "USA-East Lancaster<br />\n2249 Route 30<br />\n",
+        "coordinates_p": "40.02960,-76.27010",
+        "store": "40.02960,-76.27010",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Holiday Valley",
+        "name": "Holiday Valley",
+        "description": "USA-Ellicottville<br />\nRoute 219<br />\n+1 716-699-2345",
+        "coordinates_p": "42.25606,-78.65236",
+        "store": "42.25606,-78.65236",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Dinosaur Gardens Prehistoric Zoo",
+        "name": "Dinosaur Gardens Prehistoric Zoo",
+        "description": "USA-Ossineke<br />\n11160 US 23 South<br />\n",
+        "coordinates_p": "44.91636,-83.43907",
+        "store": "44.91636,-83.43907",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Six Flags Kentucky Kingdom",
+        "name": "Six Flags Kentucky Kingdom",
+        "description": "USA-Louisville<br />\n937 Phillips Lane<br />\n+1 800-SCREAMS",
+        "coordinates_p": "38.19325,-85.74035",
+        "store": "38.19325,-85.74035",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Valleyfair Amusement Park",
+        "name": "Valleyfair Amusement Park",
+        "description": "USA-Shakopee<br />\n1 Valleyfair Drive<br />\n",
+        "coordinates_p": "44.79756,-93.45019",
+        "store": "44.79756,-93.45019",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Enchanted Forest",
+        "name": "Enchanted Forest",
+        "description": "USA-Turner<br />\n8462 Enchanted Way SE<br />\n+1 503-363-3060",
+        "coordinates_p": "44.83210,-123.00945",
+        "store": "44.83210,-123.00945",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Cincinnati Zoo & Botanical Garden",
+        "name": "Cincinnati Zoo & Botanical Garden",
+        "description": "USA-Cincinnati<br />\n3400 Vine Street<br />\n",
+        "coordinates_p": "39.14259,-84.50937",
+        "store": "39.14259,-84.50937",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Six Flags Marine World",
+        "name": "Six Flags Marine World",
+        "description": "USA-Vallejo<br />\n2001 Marine World Parkway<br />\n+1 707-643-6722",
+        "coordinates_p": "38.14176,-122.24957",
+        "store": "38.14176,-122.24957",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Lake Compounce Theme Park",
+        "name": "Lake Compounce Theme Park",
+        "description": "USA-Bristol<br />\n822 Lake Avenue<br />\n",
+        "coordinates_p": "41.64759,-72.92368",
+        "store": "41.64759,-72.92368",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Pine Barrens Canoe Rental",
+        "name": "Pine Barrens Canoe Rental",
+        "description": "USA-Chatsworth<br />\n3260 Route 563<br />\n+1 800-732-0793",
+        "coordinates_p": "39.71539,-74.53416",
+        "store": "39.71539,-74.53416",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Motor World",
+        "name": "Motor World",
+        "description": "USA-Virginia Beach<br />\n700 South Birdneck Road<br />\n",
+        "coordinates_p": "36.81671,-75.99812",
+        "store": "36.81671,-75.99812",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Schlitterbahn Waterpark",
+        "name": "Schlitterbahn Waterpark",
+        "description": "USA-New Braunfels<br />\n305 West Austin<br />\n+1 830-625-2351",
+        "coordinates_p": "29.71347,-98.12652",
+        "store": "29.71347,-98.12652",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Funway Entertainment",
+        "name": "Funway Entertainment",
+        "description": "USA-Batavia<br />\n1335 South River Street<br />\n+1 630-879-8717",
+        "coordinates_p": "41.83472,-88.30693",
+        "store": "41.83472,-88.30693",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Amazing Chicago",
+        "name": "Amazing Chicago",
+        "description": "USA-Chicago<br />\n401 East Illinois Street Suite 425<br />\n",
+        "coordinates_p": "41.89087,-87.61737",
+        "store": "41.89087,-87.61737",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Six Flags Elitch Gardens",
+        "name": "Six Flags Elitch Gardens",
+        "description": "USA-Denver<br />\n2000 Elitch Circle<br />\n+1 303-595-4386",
+        "coordinates_p": "39.74948,-105.00983",
+        "store": "39.74948,-105.00983",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Brookfield Zoo",
+        "name": "Brookfield Zoo",
+        "description": "USA-Brookfield<br />\n3300 Golf Road<br />\n",
+        "coordinates_p": "41.82994,-87.83228",
+        "store": "41.82994,-87.83228",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Six Flags New England",
+        "name": "Six Flags New England",
+        "description": "USA-Agawam<br />\n1623 Main Street<br />\n+1 413-786-9300",
+        "coordinates_p": "42.03825,-72.61610",
+        "store": "42.03825,-72.61610",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Water World",
+        "name": "Water World",
+        "description": "USA-Federal Heights<br />\n1800 W. 89th Ave.<br />\n+1 303-427-SURF",
+        "coordinates_p": "39.85620,-105.00618",
+        "store": "39.85620,-105.00618",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Busch Gardens Africa",
+        "name": "Busch Gardens Africa",
+        "description": "USA-Tampa<br />\n3000 E Busch Blvd<br />\n+1 888-800-5447",
+        "coordinates_p": "28.03274,-82.42534",
+        "store": "28.03274,-82.42534",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Rockhoppers",
+        "name": "Rockhoppers",
+        "description": "USA-Marble Falls<br />\n1501 Hwy 281 North<br />\n+1 830-693-4FUN",
+        "coordinates_p": "30.58466,-98.27305",
+        "store": "30.58466,-98.27305",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "The Beach",
+        "name": "The Beach",
+        "description": "USA-Albuquerque<br />\n1600 Desert Surf Loo<br />\n+1 505-345-6066",
+        "coordinates_p": "35.13209,-106.61429",
+        "store": "35.13209,-106.61429",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Six Flags America",
+        "name": "Six Flags America",
+        "description": "USA-Upper Marlboro<br />\n13710 Central Ave<br />\n+1 301-249-1500",
+        "coordinates_p": "38.90128,-76.76983",
+        "store": "38.90128,-76.76983",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Knott's Soak City",
+        "name": "Knott's Soak City",
+        "description": "USA-San Diego-Chula Vista<br />\n2052 Entertainment Circle<br />\n+1 619-661-7373",
+        "coordinates_p": "32.58944,-117.00705",
+        "store": "32.58944,-117.00705",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Disneyland",
+        "name": "Disneyland",
+        "description": "USA-Anaheim<br />\n700 W Ball Rd<br />\n+1 714-781-4565",
+        "coordinates_p": "33.81786,-117.91846",
+        "store": "33.81786,-117.91846",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "SeaWorld Orlando",
+        "name": "SeaWorld Orlando",
+        "description": "USA-Orlando<br />\n7007 SeaWorld Drive<br />\n+1 800-327-2424",
+        "coordinates_p": "28.40678,-81.47093",
+        "store": "28.40678,-81.47093",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Buckskin Joe Frontier Town and Railway",
+        "name": "Buckskin Joe Frontier Town and Railway",
+        "description": "USA-Caon City<br />\n1193 Fremont County Road 3A<br />\n+1 719-275-5149",
+        "coordinates_p": "38.47757,-105.47659",
+        "store": "38.47757,-105.47659",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Animal Kingdom Zoo",
+        "name": "Animal Kingdom Zoo",
+        "description": "USA-Bordentown<br />\n1800 Jacksonville Rd.<br />\n+1 (609) 267-3111",
+        "coordinates_p": "40.07848,-74.76642",
+        "store": "40.07848,-74.76642",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Jenkinson's Breakwater Beach Water Park",
+        "name": "Jenkinson's Breakwater Beach Water Park",
+        "description": "USA-Seaside Heights<br />\n800 Ocean Terrace<br />\n",
+        "coordinates_p": "39.94265,-74.07116",
+        "store": "39.94265,-74.07116",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Six Flags White Water",
+        "name": "Six Flags White Water",
+        "description": "USA-North Marietta<br />\n250 Cobb Parkway<br />\n+1 770-948-9290",
+        "coordinates_p": "33.95734,-84.52452",
+        "store": "33.95734,-84.52452",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Walt Disney World's Magic Kingdom",
+        "name": "Walt Disney World's Magic Kingdom",
+        "description": "USA-Bay Lake<br />\n3111 World Dr<br />\n+1 407-939-6244",
+        "coordinates_p": "28.39212,-81.57029",
+        "store": "28.39212,-81.57029",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Six Flags Great Adventure",
+        "name": "Six Flags Great Adventure",
+        "description": "USA-Jackson<br />\n537 Monmouth Rd<br />\n+1 732-928-1821",
+        "coordinates_p": "40.16289,-74.41994",
+        "store": "40.16289,-74.41994",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Adventureland",
+        "name": "Adventureland",
+        "description": "USA-Altoona<br />\n5091 NE 56th Street<br />\n",
+        "coordinates_p": "41.65459,-93.50292",
+        "store": "41.65459,-93.50292",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Water Country USA",
+        "name": "Water Country USA",
+        "description": "USA-Williamsburg<br />\n176 Water Country Parkway<br />\n+1 800-343-7946",
+        "coordinates_p": "37.26135,-76.64107",
+        "store": "37.26135,-76.64107",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "North Pole/Home of Santa's Workshop",
+        "name": "North Pole/Home of Santa's Workshop",
+        "description": "USA-North Pole<br />\nLocated at the foot of Pikes Peak<br />\n+1 719-684-9432",
+        "coordinates_p": "38.91710,-104.99060",
+        "store": "38.91710,-104.99060",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Busch Gardens Europe",
+        "name": "Busch Gardens Europe",
+        "description": "USA-Williamsburg<br />\nOne Busch Gardens<br />\n+1 800-343-7946",
+        "coordinates_p": "37.23571,-76.64172",
+        "store": "37.23571,-76.64172",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Children's Museum at Yunker Farm",
+        "name": "Children's Museum at Yunker Farm",
+        "description": "USA-North Fargo<br />\n1201 28th Avenue<br />\n",
+        "coordinates_p": "46.91219,-96.79614",
+        "store": "46.91219,-96.79614",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Universal Studios Orlando",
+        "name": "Universal Studios Orlando",
+        "description": "USA-Orlando<br />\n1000 Universal Studios Plaza<br />\n+1 407-363-8000",
+        "coordinates_p": "28.47756,-81.47464",
+        "store": "28.47756,-81.47464",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Wild River Country",
+        "name": "Wild River Country",
+        "description": "USA-Little Rock<br />\n6820 Crystal Hill Road<br />\n+1 501-753-8600",
+        "coordinates_p": "34.74627,-92.28998",
+        "store": "34.74627,-92.28998",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Disney-MGM Studios",
+        "name": "Disney-MGM Studios",
+        "description": "USA-Bay Lake<br />\n50 Animation Dr<br />\n+1 407-939-6244",
+        "coordinates_p": "28.37710,-81.55530",
+        "store": "28.37710,-81.55530",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Hot Air Expeditions",
+        "name": "Hot Air Expeditions",
+        "description": "USA-AZ 85024<br />\n2243 East Rose Garden Loop Phoenix<br />\n",
+        "coordinates_p": "33.67796,-112.03363",
+        "store": "33.67796,-112.03363",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Dorney Park",
+        "name": "Dorney Park",
+        "description": "USA-Allentown<br />\n3830 Domey Park Road<br />\n+1 610-395-3724",
+        "coordinates_p": "40.60140,-75.52730",
+        "store": "40.60140,-75.52730",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Funland",
+        "name": "Funland",
+        "description": "USA-Rehoboth Beach<br />\n6 Delaware Avenue<br />\n",
+        "coordinates_p": "38.71464,-75.07709",
+        "store": "38.71464,-75.07709",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Holiday World",
+        "name": "Holiday World",
+        "description": "USA-Santa Claus<br />\n452 E Christmas Blvd<br />\n",
+        "coordinates_p": "38.11834,-86.91808",
+        "store": "38.11834,-86.91808",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "National Aquarium",
+        "name": "National Aquarium",
+        "description": "USA-Baltimore<br />\n501 East Pratt Street<br />\n",
+        "coordinates_p": "39.28656,-76.60852",
+        "store": "39.28656,-76.60852",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Six Flags St. Loius",
+        "name": "Six Flags St. Loius",
+        "description": "USA-Eureka<br />\nI-44 & Six Flags Road<br />\n+1 636-938-4800",
+        "coordinates_p": "38.49600,-90.62330",
+        "store": "38.49600,-90.62330",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Wild Adventures",
+        "name": "Wild Adventures",
+        "description": "USA-Valdosta<br />\n3766 Old Clyattville Rd<br />\n",
+        "coordinates_p": "30.72274,-83.31850",
+        "store": "30.72274,-83.31850",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Quassy",
+        "name": "Quassy",
+        "description": "USA-Middlebury<br />\nLake Quassapaug Rt. 64<br />\n+1 800-FOR-PARK",
+        "coordinates_p": "41.52700,-73.11930",
+        "store": "41.52700,-73.11930",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Lagoon Park",
+        "name": "Lagoon Park",
+        "description": "USA-Farmington<br />\nPO Box 696<br />\n+1 800-748-5246",
+        "coordinates_p": "40.98800,-111.90200",
+        "store": "40.98800,-111.90200",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Six Flags New Orleans",
+        "name": "Six Flags New Orleans",
+        "description": "USA-New Orleans<br />\n12301 Lake Forest Blvd.<br />\n+1 504-253-8100",
+        "coordinates_p": "30.04509,-89.93697",
+        "store": "30.04509,-89.93697",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Paramount's Kings Island",
+        "name": "Paramount's Kings Island",
+        "description": "USA-Mason<br />\n6300 Kings Island Dr<br />\n+1 800-832-1133",
+        "coordinates_p": "39.33893,-84.27869",
+        "store": "39.33893,-84.27869",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Castle Golf Family Fun Park",
+        "name": "Castle Golf Family Fun Park",
+        "description": "USA-Prescott Valley<br />\nHighway 69<br />\n+1 928-772-0702",
+        "coordinates_p": "34.62240,-112.32410",
+        "store": "34.62240,-112.32410",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Dollywood/Splash Country",
+        "name": "Dollywood/Splash Country",
+        "description": "USA-Pigeon Forge<br />\n1020 Dollywood Lane<br />\n+1 865-428-9488",
+        "coordinates_p": "35.79418,-83.53538",
+        "store": "35.79418,-83.53538",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Disney's California Adventure",
+        "name": "Disney's California Adventure",
+        "description": "USA-Anaheim<br />\n1313 S. Harbor Blvd.<br />\n+1 714-781-4565",
+        "coordinates_p": "33.80920,-117.91556",
+        "store": "33.80920,-117.91556",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Jolly Roger Amusement Park",
+        "name": "Jolly Roger Amusement Park",
+        "description": "USA-Ocean City<br />\n2901 Coastal Highway<br />\n",
+        "coordinates_p": "38.35790,-75.07483",
+        "store": "38.35790,-75.07483",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Kings Dominion",
+        "name": "Kings Dominion",
+        "description": "USA-Doswell<br />\n1600 Theme Park Way<br />\n",
+        "coordinates_p": "37.83508,-77.45028",
+        "store": "37.83508,-77.45028",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Mulligan's Family Fun Center",
+        "name": "Mulligan's Family Fun Center",
+        "description": "USA-Murrieta<br />\n24950 Madison Ave.<br />\n+1 909-696-9696",
+        "coordinates_p": "33.55921,-117.20225",
+        "store": "33.55921,-117.20225",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "SeaWorld San Diego",
+        "name": "SeaWorld San Diego",
+        "description": "USA-San Diego<br />\n500 SeaWorld Drive<br />\n+1 800-25-SHAMU",
+        "coordinates_p": "32.76170,-117.22699",
+        "store": "32.76170,-117.22699",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Starcadia",
+        "name": "Starcadia",
+        "description": "USA-Macon<br />\n150 Starcadia Circle<br />\n+1 478-475-9880",
+        "coordinates_p": "32.92803,-83.72739",
+        "store": "32.92803,-83.72739",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Six Flags Darien Lake",
+        "name": "Six Flags Darien Lake",
+        "description": "USA-New York<br />\n9993 Alleghany Road<br />\n+1 585-599-4641",
+        "coordinates_p": "42.92312,-78.38970",
+        "store": "42.92312,-78.38970",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Lakeside",
+        "name": "Lakeside",
+        "description": "USA-Denver<br />\n4601 Sheridan Blvd.<br />\n+1 303-477-1621",
+        "coordinates_p": "39.78035,-105.05347",
+        "store": "39.78035,-105.05347",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Thunder Island",
+        "name": "Thunder Island",
+        "description": "USA-Fulton<br />\n21 Wilcox Road<br />\n+1 315-598-8016",
+        "coordinates_p": "43.27490,-76.41397",
+        "store": "43.27490,-76.41397",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Raging Waters",
+        "name": "Raging Waters",
+        "description": "USA-San Dimas<br />\n111 Raging Waters Drive<br />\n+1 909-802-2200",
+        "coordinates_p": "34.08565,-117.81186",
+        "store": "34.08565,-117.81186",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Geauga Lake",
+        "name": "Geauga Lake",
+        "description": "USA-Aurora<br />\n1060 N Aurora Rd<br />\n",
+        "coordinates_p": "41.34688,-81.37715",
+        "store": "41.34688,-81.37715",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Great America",
+        "name": "Great America",
+        "description": "USA-Santa Clara<br />\n2401 Agnew Rd<br />\n",
+        "coordinates_p": "37.39057,-121.96905",
+        "store": "37.39057,-121.96905",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Carowinds",
+        "name": "Carowinds",
+        "description": "USA-Charlotte<br />\n14523 Carowinds Blvd<br />\n",
+        "coordinates_p": "35.10097,-80.94982",
+        "store": "35.10097,-80.94982",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Disney's Animal Kingdom",
+        "name": "Disney's Animal Kingdom",
+        "description": "USA-Lake Buena Vista<br />\n505 N Rainforest Rd<br />\n+1 407-939-6244",
+        "coordinates_p": "28.35316,-81.59250",
+        "store": "28.35316,-81.59250",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Waterville USA",
+        "name": "Waterville USA",
+        "description": "USA-Gulf Shores<br />\n906 Gulf Shores Pkwy.<br />\n+1 251-948-2106",
+        "coordinates_p": "30.25823,-87.68824",
+        "store": "30.25823,-87.68824",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Ghost Town in the Sky",
+        "name": "Ghost Town in the Sky",
+        "description": "USA-Maggie Valley<br />\nUS Highway 19<br />\n",
+        "coordinates_p": "35.51860,-83.09150",
+        "store": "35.51860,-83.09150",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Zoom Flume",
+        "name": "Zoom Flume",
+        "description": "USA-East Durham<br />\n91 Shady Glen Rd.<br />\n+1 800-888-3586",
+        "coordinates_p": "42.37952,-74.14545",
+        "store": "42.37952,-74.14545",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Rawhide Wild West Town",
+        "name": "Rawhide Wild West Town",
+        "description": "USA-Chandler<br />\n5700 West North Loop Road<br />\n",
+        "coordinates_p": "33.27106,-111.98711",
+        "store": "33.27106,-111.98711",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Santa Monica Pier",
+        "name": "Santa Monica Pier",
+        "description": "USA-Santa Monica<br />\n200 Santa Monica Pier<br />\n+1 310-458-8900",
+        "coordinates_p": "34.01036,-118.49612",
+        "store": "34.01036,-118.49612",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Silverwood",
+        "name": "Silverwood",
+        "description": "USA-Athol<br />\n26225 North Highway 95<br />\n",
+        "coordinates_p": "47.91012,-116.70232",
+        "store": "47.91012,-116.70232",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Splashtown",
+        "name": "Splashtown",
+        "description": "USA-San Antonio<br />\n3600 North IH-35<br />\n+1 210-227-1400",
+        "coordinates_p": "29.44774,-98.42679",
+        "store": "29.44774,-98.42679",
+        "source_s": "USA-Amusement & Theme Parks"
+    },
+    {
+        "id": "Six Flags Great America",
+        "name": "Six Flags Great America",
+        "description": "USA-Gurnee<br />\n1 Six Flags Pkwy<br />\n+1 847-249-4636",
+        "coordinates_p": "42.37646,-87.93400",
+        "store": "42.37646,-87.93400",
+        "source_s": "USA-Amusement & Theme Parks"
+    }
+]
