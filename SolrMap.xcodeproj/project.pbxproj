@@ -19,9 +19,17 @@
 		C27B47D316694569006E678B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27B47D116694569006E678B /* MainStoryboard_iPhone.storyboard */; };
 		C27B47D616694569006E678B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27B47D416694569006E678B /* MainStoryboard_iPad.storyboard */; };
 		C27B47D916694569006E678B /* JSSMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C27B47D816694569006E678B /* JSSMViewController.m */; };
+		C27B47EC166946F5006E678B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27B47EB166946F5006E678B /* CFNetwork.framework */; };
+		C27B47EF16694702006E678B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27B47EE16694702006E678B /* CoreData.framework */; };
+		C27B47F116694711006E678B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27B47F016694711006E678B /* Security.framework */; };
+		C27B47F316694722006E678B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27B47F216694722006E678B /* MobileCoreServices.framework */; };
+		C27B480F166A53C1006E678B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27B480E166A53C1006E678B /* MapKit.framework */; };
+		CBAE65BC19F042D0859378F9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9286400B7FE04728AAD26804 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CD9133942F24E1FA9A04901 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		9286400B7FE04728AAD26804 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27B47B516694569006E678B /* SolrMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolrMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27B47B916694569006E678B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C27B47BB16694569006E678B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +47,11 @@
 		C27B47D516694569006E678B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		C27B47D716694569006E678B /* JSSMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSSMViewController.h; sourceTree = "<group>"; };
 		C27B47D816694569006E678B /* JSSMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSSMViewController.m; sourceTree = "<group>"; };
+		C27B47EB166946F5006E678B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C27B47EE16694702006E678B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C27B47F016694711006E678B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C27B47F216694722006E678B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C27B480E166A53C1006E678B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,9 +59,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C27B480F166A53C1006E678B /* MapKit.framework in Frameworks */,
+				C27B47F316694722006E678B /* MobileCoreServices.framework in Frameworks */,
+				C27B47F116694711006E678B /* Security.framework in Frameworks */,
+				C27B47EF16694702006E678B /* CoreData.framework in Frameworks */,
+				C27B47EC166946F5006E678B /* CFNetwork.framework in Frameworks */,
 				C27B47BA16694569006E678B /* UIKit.framework in Frameworks */,
 				C27B47BC16694569006E678B /* Foundation.framework in Frameworks */,
 				C27B47BE16694569006E678B /* CoreGraphics.framework in Frameworks */,
+				CBAE65BC19F042D0859378F9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,9 +77,11 @@
 		C27B47AA16694569006E678B = {
 			isa = PBXGroup;
 			children = (
+				C27B480E166A53C1006E678B /* MapKit.framework */,
 				C27B47BF16694569006E678B /* SolrMap */,
 				C27B47B816694569006E678B /* Frameworks */,
 				C27B47B616694569006E678B /* Products */,
+				2CD9133942F24E1FA9A04901 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,9 +96,14 @@
 		C27B47B816694569006E678B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C27B47EE16694702006E678B /* CoreData.framework */,
+				C27B47F016694711006E678B /* Security.framework */,
+				C27B47F216694722006E678B /* MobileCoreServices.framework */,
+				C27B47EB166946F5006E678B /* CFNetwork.framework */,
 				C27B47B916694569006E678B /* UIKit.framework */,
 				C27B47BB16694569006E678B /* Foundation.framework */,
 				C27B47BD16694569006E678B /* CoreGraphics.framework */,
+				9286400B7FE04728AAD26804 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,6 +146,7 @@
 				C27B47B116694569006E678B /* Sources */,
 				C27B47B216694569006E678B /* Frameworks */,
 				C27B47B316694569006E678B /* Resources */,
+				4C69BD2CD3724A4FA9E7AB20 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,6 +199,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C69BD2CD3724A4FA9E7AB20 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C27B47B116694569006E678B /* Sources */ = {
@@ -268,10 +312,25 @@
 		};
 		C27B47DD16694569006E678B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CD9133942F24E1FA9A04901 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SolrMap/SolrMap-Prefix.pch";
 				INFOPLIST_FILE = "SolrMap/SolrMap-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreData,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -279,10 +338,25 @@
 		};
 		C27B47DE16694569006E678B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CD9133942F24E1FA9A04901 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SolrMap/SolrMap-Prefix.pch";
 				INFOPLIST_FILE = "SolrMap/SolrMap-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreData,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -307,6 +381,7 @@
 				C27B47DE16694569006E678B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
