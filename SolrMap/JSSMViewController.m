@@ -38,12 +38,8 @@
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     RKObjectRequestOperation *operation = [[RKObjectRequestOperation alloc] initWithRequest:request responseDescriptors:@[responseDescriptor]];
     [operation setCompletionBlockWithSuccess:^(RKObjectRequestOperation *operation, RKMappingResult *result) {
+        
         NSArray* points = [result array];
-        
-        for (JSSMAnnotation* point in points) {
-            [point setCoordinate: [self convertStringToLatLong:[point location]]];
-        }
-        
         [self.mapView addAnnotations: points];
         
     } failure:^(RKObjectRequestOperation *operation, NSError *error) {
@@ -107,9 +103,20 @@
 
 @implementation JSSMAnnotation
 
-@synthesize coordinate;
-@synthesize name;
-@synthesize description;
-@synthesize location;
+- (void) setLocation:(NSString *)location {
+    _location = [location copy];
+    _coordinate = [self convertStringToLatLong:location];
+}
+
+- (CLLocationCoordinate2D) convertStringToLatLong:(NSString*)loc
+{
+    CLLocationCoordinate2D location;
+    
+    NSArray * locationArray = [loc componentsSeparatedByString: @","];
+    
+    location.latitude = [[locationArray objectAtIndex:0] doubleValue];
+    location.longitude = [[locationArray objectAtIndex:1] doubleValue];
+    return location;
+}
 
 @end
