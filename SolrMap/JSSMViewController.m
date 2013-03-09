@@ -19,8 +19,7 @@
 @synthesize mapView;
 @synthesize kmField;
 
-- (IBAction)findButton:(id)sender {
-    [kmField resignFirstResponder];
+- (void)findLocations {
     // need to do this since solr response with "text/plain" rather than "application/json"
     [RKMIMETypeSerialization registerClass:[RKNSJSONSerialization class] forMIMEType:@"text/plain"];
     
@@ -48,7 +47,6 @@
         }
         
         [mapView addAnnotations: points];
-        
         
     } failure:^(RKObjectRequestOperation *operation, NSError *error) {
         NSLog(@"Failed with error: %@", [error localizedDescription]);
@@ -83,6 +81,11 @@
     //[self testPoint];
 }
 
+- (IBAction)findButton:(id)sender {
+    [kmField resignFirstResponder];
+    [self findLocations];
+}
+
 - (BOOL)textFieldShouldReturn:(UITextField *)textField{
     [self findButton:textField];
     return YES;
@@ -110,7 +113,5 @@
 @synthesize name;
 @synthesize description;
 @synthesize location;
-
-//NSArray* components = [initialString componentsSeparatedByString:@" "];
 
 @end
