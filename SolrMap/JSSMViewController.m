@@ -29,7 +29,7 @@
      @"coordinates_p":   @"location"
      }];
     
-    RKResponseDescriptor *responseDescriptor = [RKResponseDescriptor responseDescriptorWithMapping:mapping pathPattern:nil keyPath:@"response.docs" statusCodes:nil];
+    RKResponseDescriptor *responseDescriptor = [RKResponseDescriptor responseDescriptorWithMapping:mapping method:RKRequestMethodGET pathPattern:nil keyPath:@"response.docs" statusCodes:nil];
     
     NSString* solrUrl = [NSString stringWithFormat:@"http://localhost:8983/solr/collection1/select?q=*:*&fq=%%7B!bbox%%7D&pt=%f,%f&d=%@&sfield=coordinates_p&wt=json&fl=_dist_:geodist(),name,description,coordinates_p", self.mapView.centerCoordinate.latitude, self.mapView.centerCoordinate.longitude, self.kmField.text];
     
