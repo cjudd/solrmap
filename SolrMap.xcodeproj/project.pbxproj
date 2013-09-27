@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7523323DBBCD483EA764B236 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9286400B7FE04728AAD26804 /* libPods.a */; };
 		C27B47BA16694569006E678B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27B47B916694569006E678B /* UIKit.framework */; };
 		C27B47BC16694569006E678B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27B47BB16694569006E678B /* Foundation.framework */; };
 		C27B47BE16694569006E678B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27B47BD16694569006E678B /* CoreGraphics.framework */; };
@@ -24,7 +25,6 @@
 		C27B47F116694711006E678B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27B47F016694711006E678B /* Security.framework */; };
 		C27B47F316694722006E678B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27B47F216694722006E678B /* MobileCoreServices.framework */; };
 		C27B480F166A53C1006E678B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27B480E166A53C1006E678B /* MapKit.framework */; };
-		CBAE65BC19F042D0859378F9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9286400B7FE04728AAD26804 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,7 +67,7 @@
 				C27B47BA16694569006E678B /* UIKit.framework in Frameworks */,
 				C27B47BC16694569006E678B /* Foundation.framework in Frameworks */,
 				C27B47BE16694569006E678B /* CoreGraphics.framework in Frameworks */,
-				CBAE65BC19F042D0859378F9 /* libPods.a in Frameworks */,
+				7523323DBBCD483EA764B236 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,6 @@
 		C27B47AA16694569006E678B = {
 			isa = PBXGroup;
 			children = (
-				C27B480E166A53C1006E678B /* MapKit.framework */,
 				C27B47BF16694569006E678B /* SolrMap */,
 				C27B47B816694569006E678B /* Frameworks */,
 				C27B47B616694569006E678B /* Products */,
@@ -96,6 +95,7 @@
 		C27B47B816694569006E678B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C27B480E166A53C1006E678B /* MapKit.framework */,
 				C27B47EE16694702006E678B /* CoreData.framework */,
 				C27B47F016694711006E678B /* Security.framework */,
 				C27B47F216694722006E678B /* MobileCoreServices.framework */,
@@ -143,6 +143,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C27B47DC16694569006E678B /* Build configuration list for PBXNativeTarget "SolrMap" */;
 			buildPhases = (
+				B28E2520DAB840788D77A290 /* Check Pods Manifest.lock */,
 				C27B47B116694569006E678B /* Sources */,
 				C27B47B216694569006E678B /* Frameworks */,
 				C27B47B316694569006E678B /* Resources */,
@@ -214,6 +215,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B28E2520DAB840788D77A290 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -317,6 +334,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SolrMap/SolrMap-Prefix.pch";
 				INFOPLIST_FILE = "SolrMap/SolrMap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-framework",
@@ -343,6 +361,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SolrMap/SolrMap-Prefix.pch";
 				INFOPLIST_FILE = "SolrMap/SolrMap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-framework",
